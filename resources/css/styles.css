@@ -1,0 +1,142 @@
+body {
+    padding: 0;
+    margin: 0 10px;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    opacity: 0.9;
+    color: gray;
+    width: 1250px;
+}
+
+#container {
+    width: 100%;
+}
+
+header {
+    min-width: 100%;
+    height: 60px;
+    display: flex;
+    padding: 8px 0 0 0;
+    border-bottom: 1px solid seashell;
+    /* flex-basis: auto; */
+}
+
+header ul {
+    min-width: 100%;
+}
+
+header li {
+    display: inline;
+    position: relative;
+    left: 280%;
+    padding: 0 2%; 
+    font-weight: bold;
+}
+
+header a {
+    color: gray;
+}
+
+
+header img {
+    height: 50px;
+}
+
+main {
+    /* width: 100%; */
+}
+
+#hero-text {
+    width: 1200px;
+    position: absolute;
+    top: 350px;
+    background-color: black;
+    color: gray;
+    text-align: center;
+}
+
+#hero img {
+    width: 1200px;
+    height: 700px;
+    /* padding: 0 0 0 2%; */
+}
+
+#middle {
+    width: 1200px;
+}
+
+
+#middle-text {
+    text-align: center;
+}
+
+#middle-images {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#middle-images img {
+    height: 200px;
+    
+    
+}
+
+figure {
+    margin: 0;
+    padding: 1%;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    padding: 2% 0 0 0;
+}
+
+#bottom {
+    margin: 10px;
+    height: 500px;
+    width: 1200px;
+    background-image: url('../images/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+#bottom h2 {
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+
+#text-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.text-box {
+    background-color: black;
+    width: 300px;
+    margin: 0 1%;
+    text-align: center;
+}
+
+#calling-card {
+    text-align: center;
+    height: 200px;
+}
+
+
+footer {
+    margin: 0 10px;
+}
+
+
+
