@@ -99,20 +99,24 @@ figcaption {
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   display: flex;
+   /* display: flex; */
 }
 
 #bottom h2 {
+   display: flex;
+   justify-content: center;
    position: relative;
-   left: 500px;
    top: 100px;
 }
 
 #text-boxes {
    display: flex;
    max-width: 1200px;
-   justify-content: space-around;
+   justify-content: center;
    align-items: center;
+   position: relative;
+   top: 100px;
+   flex-wrap: wrap;
 }
 
 
@@ -120,7 +124,7 @@ figcaption {
 .text-box {
    background-color: black;
    width: 300px;
-   margin: 0 1%;
+   margin: 1%;
    
    text-align: center;
 }
